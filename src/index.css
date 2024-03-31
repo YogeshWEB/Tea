@@ -64,6 +64,7 @@ body {
   text-align: left;
   border-radius: 47px;
   left: 128px;
+  cursor: pointer;
 }
 .explore{
   display: flex;
@@ -81,6 +82,7 @@ body {
   line-height: 30px;
   text-align: left;
   border-radius: 47px;
+  cursor: pointer;
   /* left: 128px; */
 }
 .main-content{
