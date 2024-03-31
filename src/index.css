@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  background-image: url("GradientbackgroundTea.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+.logo {
+  display: flex;
+  position: relative;
+  right: 250px;
+}
+.nav {
+  display: flex;
+  position: relative;
+  top: -15px;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+
+}
+.page {
+  display: flex;
+  position: relative;
+  right: 167px;
+}
+.page p a {
+  color: #803200;
+  font-family: Josefin Slab;
+  font-size: 24px;
+  /* font-weight: 600; */
+  line-height: 24px;
+  /* text-align: left; */
+  margin-left:15px ;
+  margin-right: 15px;
+  text-decoration: none;
+  /* padding: 10px; */
+}
+.page p a:hover {
+  border-bottom: 1px solid #7f3100;
+}
+.signup {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: rgba(115, 57, 25, 0.69);
+  width: 125px;
+  height: 49.1px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  border-radius: 47px;
+  left: 128px;
+}
+.explore{
+  display: flex;
+  /* position: relative; */
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: rgba(111, 74, 0, 1);
+  
+  width: 125px;
+  height: 49.1px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  border-radius: 47px;
+  /* left: 128px; */
+}
+.main-content{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -75px;
+  justify-content: center ;
+  align-items: center;
+  margin: 0;
+}
+.head-content{
+  margin: 0;
+  font-family: Otomanopee One;
+font-size: 110px;
+font-weight: 400;
+line-height: 159.28px;
+text-align: left;
+color: rgba(149, 94, 53, 1);
+
+}
+.para-content{
+  margin: 10px;
+  color: rgba(61, 25, 0, 1);
+  font-family: Poppins;
+font-size: 22px;
+font-weight: 300;
+line-height: 33px;
+text-align: center;
+width: 900px;
+height: 66px;
+
+}
+.image{
+  display: flex;
+  width: 650px;
+  position: relative;
+  right: 25px;
+}
